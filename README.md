@@ -1,6 +1,6 @@
 # Basic HTML Portfolio
 
-Proyek ini adalah bagian dari tantangan **[HTML Only Portfolio]([https://roadmap.sh/projects/html-only-portfolio](https://roadmap.sh/projects/basic-html-website))** dari roadmap.sh. Fokus utama proyek ini adalah membangun struktur web yang baik menggunakan Semantic HTML.
+Proyek ini adalah bagian dari tantangan **[HTML Only Portfolio](https://roadmap.sh/projects/html-only-portfolio)** dari roadmap.sh. Fokus utama proyek ini adalah membangun struktur web yang baik menggunakan Semantic HTML.
 
 ## Fitur Utama
 - **Semantic HTML**: Menggunakan tag `<header>`, `<nav>`, `<section>`, `<article>`, dan `<footer>` untuk struktur yang bermakna.
