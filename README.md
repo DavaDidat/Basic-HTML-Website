@@ -19,7 +19,10 @@ Proyek ini adalah bagian dari tantangan **[HTML Only Portfolio](https://roadmap.
 
 ## Demo
 Anda dapat melihat tampilan live-nya di sini:
-[Tempel link GitHub Pages kamu di sini]
+https://davadidat.github.io/Basic-HTML-Website/
+
+Roadmap.sh:
+https://roadmap.sh/projects/basic-html-website
 
 ---
 *Dibuat oleh [Dava Didat] sebagai bagian dari perjalanan belajar Frontend Development.*
