@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .kontainer {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 2px solid black;
+      }
+      header span {
+        font-weight: bold;
+      }
+      nav {
+        float: right;
+        font-weight: bold;
+      }
+      section h1 {
+        margin-bottom: 10px;
+      }
+      img {
+        width: 150px;
+        height: auto;
+        vertical-align: middle;
+        margin-right: 10px;
+      }
+      .projec {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+      }
+      .kartu {
+        margin: 10px;
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 10px;
+        box-shadow: 10px 10px 5px #aaaaaa;
+      }
+      .articles article {
+        border: 2px solid #ccc;
+        padding: 15px;
+        border-radius: 8px;
+        background-color: #f9f9f9;
+        box-shadow: 10px 10px 5px #dddddd;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="kontainer">
+      <header>
+        <span><strong>[ ] Dava Didat</strong></span>
+        <nav>
+          <a href="#home">Home</a> | <a href="#articles">Articles</a> |
+          <a href="#projec">Projects</a> | <a href="#">Contact</a>
+        </nav>
+      </header>
+      <hr />
+      <section style="text-align: center; padding: 50px" id="home">
+        <h1>Frontend Developer</h1>
+        <p>html only with proper layout, no styling</p>
+      </section>
+      <hr />
+      <h4>Project</h4>
+      <div class="projec" id="projec">
+        <div class="kartu">
+          <a href="https://davadidat.github.io/calkulator/" target="_blank"
+            ><img src="calkulator.png" alt="Calkulator Project"
+          /></a>
+        </div>
+        <div class="kartu">
+          <a href="https://davadidat.github.io/to_do_list/" target="_blank"
+            ><img src="todolist.png" alt="todolist Project"
+          /></a>
+        </div>
+        <div class="kartu">
+          <a href="https://davadidat.github.io/ucapan-ulta/" target="_blank"
+            ><img src="kartu ucapan.png" alt="kartu ucapan Project"
+          /></a>
+        </div>
+      </div>
+      <section class="articles" id="articles">
+        <hr />
+        <h2>Articles</h2>
+
+        <article style="margin-bottom: 20px">
+          <h3><a href="#">Cara Belajar HTML dari Nol</a></h3>
+          <p><small>Dipublikasikan pada: 19 Januari 2026</small></p>
+          <p>
+            Di artikel ini, saya menceritakan pengalaman saya memulai belajar
+            pemrograman web. Tantangan terbesar adalah konsistensi, tetapi
+            dengan roadmap yang jelas, semuanya jadi lebih mudah.
+          </p>
+          <a href="#">Baca Selengkapnya...</a>
+        </article>
+
+        <article style="margin-bottom: 20px">
+          <h3><a href="#">Tips Mengatur Layout Tanpa Framework</a></h3>
+          <p><small>Dipublikasikan pada: 15 Januari 2026</small></p>
+          <p>
+            Belajar menggunakan Flexbox dan struktur HTML murni sangat membantu
+            saya memahami bagaimana browser bekerja sebelum saya meloncat ke CSS
+            Framework.
+          </p>
+          <a href="#">Baca Selengkapnya...</a>
+        </article>
+      </section>
+      <hr />
+      <h3>Reviews from my Teachers</h3>
+      <div style="display: flex; gap: 10px">
+        <div
+          style="
+            border: 2px solid black;
+            border-radius: 20px;
+            padding: 15px;
+            width: 30%;
+          "
+        >
+          <p>"John doe was a brilliant student..."</p>
+          <small>Jane Doe<br />Assistant Professor</small>
+        </div>
+      </div>
+      <footer
+        style="
+          text-align: center;
+          padding: 20px;
+          margin-top: 20px;
+          border-top: 2px solid black;
+        "
+      >
+        &copy; 2026 Dava Didat. All rights reserved.
+      </footer>
+    </div>
+  </body>
+</html>
